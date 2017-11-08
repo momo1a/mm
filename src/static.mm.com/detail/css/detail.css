@@ -1,0 +1,33 @@
+.links li{
+    font-size: 20px;
+}
+.container{
+    font-size: 14px;
+}
+.myimg{
+    text-align: center;
+    margin: 1px auto;
+    border:1px solid #A9A9A9;
+}
+.myimg img{
+    margin:0 auto;display:block;
+}
+.recommand img{
+    margin: 2px 3px;
+    display: inline;
+    width: 15%;
+}
+
+.foot-text{
+    display: block;
+    height: 20px;
+    border: 1px solid #CCC;
+}
+
+@media screen and (max-width:768px){  /* 小于768宽度的屏幕不显示 */
+    /*这里是特定的样式表*/
+    .recommand{
+        font-size: 14px;
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+#page{
+    margin-left: 2%;
+    height:40px;
+    padding:20px 0px;
+}
+#page a{
+    display:block;
+    float:left;
+    margin-right:10px;
+    padding:2px 12px;
+    height:24px;
+    border:1px #cccccc solid;
+    background:#fff;
+    text-decoration:none;
+    color:#808080;
+    font-size:12px;
+    line-height:24px;
+}
+#page a:hover{
+    color:#DC143C;
+    border:1px #DC143C solid;
+}
+#page a.cur{
+    border:none;
+    background:#DC143C;
+    color:#fff;
+}
+#page span{
+    float:left;
+    padding:2px 12px;
+    font-size:12px;
+    height:24px;
+    line-height:24px;
+    color:#bbb;
+    border:1px #ccc solid;
+    background:#fcfcfc;
+    margin-right:8px;
+
+}
+#page span.pageRemark{
+    border-style:none;
+    background:none;
+    margin-right:0px;
+    padding:4px 0px;
+    color:#666;
+}
+#page span.pageRemark b{
+    color:red;
+}
+#page span.pageEllipsis{
+    border-style:none;
+    background:none;
+    padding:4px 0px;
+    color:#808080;
+}
