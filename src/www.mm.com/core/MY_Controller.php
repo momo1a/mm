@@ -13,7 +13,8 @@ class MY_Controller extends CI_Controller
             'msg' =>$msg,
             'data'=>$data
         );
-        exit('jsonpCallback('.json_encode($return).')');
+        $jsonCallback = $this->input->get('jsonpCallback');
+        exit($jsonCallback.'('.json_encode($return).')');
     }
 
 }
