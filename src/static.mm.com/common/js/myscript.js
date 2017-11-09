@@ -51,7 +51,7 @@ $(document).ready(function(){
 	});	
 	
 	//Flickr Integration
-    /*$.getJSON(FOOT_JSON_URL, function(data){
+    $.getJSON(FOOT_JSON_URL + '?jsonpCallback=?', function(data){
         if(data.code == 200) {
             $.each(data.data, function (i, item) {
                 if (i <= 11) { // <— change this number to display more or less images
@@ -62,10 +62,10 @@ $(document).ready(function(){
                 }
             });
         }
-    });*/
+    });
 
 
-    $.ajax({
+    /*$.ajax({
         type: 'get',
         url: FOOT_JSON_URL,
         dataType: 'jsonp',
@@ -85,7 +85,7 @@ $(document).ready(function(){
             console.log('test_error');
         }
 
-    });
+    });*/
 	
 	//Tooltip
 	$('.follow_us a').tooltip();
