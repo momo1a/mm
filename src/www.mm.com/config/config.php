@@ -24,7 +24,7 @@ require_once COMMONPATH.'/config/'.ENVIRONMENT.'/mm.php';
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = $config['domain_www'];
 
 /*
 |--------------------------------------------------------------------------

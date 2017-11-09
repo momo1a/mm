@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title><?php echo $page_title; ?>-<?php echo SITE_NAME.'&nbsp;www.h3hq.com'; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="keyword" content="漂亮mm,mm图片,美女,妹子,妹纸,美女图片,美女相册,美女写真">
+    <meta name="description" content="喝水网美女图片，收集精美的美女图片，包括性感美女相册，高校校花美女图册，旗袍美女明星写真等各类更新好看的热门美女图片。">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/ico" href="<?=config_item('domain_static')?>/common/img/favicon.ico">
     <link href='<?php echo config_item('domain_static').'/common/fonts.css'; ?>' rel='stylesheet' type='text/css'>
@@ -28,15 +29,6 @@
                         <div class="logo"><a href="<?=config_item('domain_www');?>"><img src="<?php echo config_item('domain_static');?>/common/img/logo.png" alt="" /></a></div>
                     </div>
                     <div class="span8">
-                        <!--<div class="follow_us">
-                            <ul>
-                                <li><a href="#" class="facebook">Facebook</a></li>
-                                <li><a href="#" class="vimeo">Vimeo</a></li>
-                                <li><a href="#" class="tumbrl">Tumbrl</a></li>
-                                <li><a href="#" class="twitter">Twitter</a></li>
-                                <li><a href="#" class="delicious">Delicious</a></li>
-                            </ul>
-                        </div>-->
                         <div class="clear"></div>
                         <nav id="main_menu">
                             <div class="menu_wrap">

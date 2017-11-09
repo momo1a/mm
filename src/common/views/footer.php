@@ -101,6 +101,7 @@
 <script type="text/javascript" src="<?=config_item('domain_static')?>/common/js/jquery.jcarousel.js"></script>
 <script type="text/javascript" src="<?=config_item('domain_static')?>/common/js/jquery.tweet.js"></script>
 <script type="text/javascript" src="<?=config_item('domain_static')?>/common/js/myscript.js"></script>
+<?php if (trim(base_url(),'/') == config_item('domain_www')): ?>
 <script type="text/javascript">
     $(document).ready(function(){
         //Slider
@@ -111,5 +112,6 @@
 
     });
 </script>
+<?php endif;?>
 </body>
 </html>

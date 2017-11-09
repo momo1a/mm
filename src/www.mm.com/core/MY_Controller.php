@@ -3,6 +3,7 @@ class MY_Controller extends CI_Controller
 {
 
     public function __construct(){
+        $this->load->helper('url');
         parent::__construct();
     }
 
