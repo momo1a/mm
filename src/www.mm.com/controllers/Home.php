@@ -9,7 +9,7 @@ class Home extends MY_Controller
 
     public function index(){
 
-        //$this->output->cache(2);
+        $this->output->cache(86400);
         $page_title = '美女图片|性感美女|明星写真|清纯美眉|美女校花|性感车模|旗袍美女';
         $list = $this->imgs_model->home_list();
         $category = $this->category_model->get_all();
