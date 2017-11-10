@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title><?php echo $page_title; ?>-<?php echo SITE_NAME.'&nbsp;www.h3hq.com'; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="漂亮mm,mm图片,美女,妹子,妹纸,美女图片,美女相册,美女写真">
+    <meta name="keywords" content="漂亮mm,mm图片,美女,妹子,妹纸,美女图片,美女相册,美女写真">
     <meta name="description" content="喝水网美女图片，收集精美的美女图片，包括性感美女相册，高校校花美女图册，旗袍美女明星写真等各类更新好看的热门美女图片。">
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/ico" href="<?=config_item('domain_static')?>/common/img/favicon.ico">
