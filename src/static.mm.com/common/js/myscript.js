@@ -55,7 +55,7 @@ $(document).ready(function(){
         if(data.code == 200) {
             $.each(data.data, function (i, item) {
                 if (i <= 11) { // <— change this number to display more or less images
-                    var imgSrc = IMG_URL + JSON.parse(item.img)[0];
+                    var imgSrc = IMG_URL + JSON.parse(item.img)[0] + '_64x64.jpg';
 
                     $("<img/>").attr("src", imgSrc).appendTo(".FlickrImages ul")
                         .wrap("<li><a href='" + DETAIL_URL + '/' + item.id +"' target='_blank' title='"+ item.title.substring(0,item.title.indexOf('(')) +"'></a></li>");

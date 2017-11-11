@@ -36,7 +36,7 @@
                 <?php foreach($list as $val):if($val['cid'] == $value['id']): ?>
                     <li>
                         <div class="post_carousel">
-                            <a href="<?=config_item('domain_detail').'/'.$val['id']?>" target="_blank"><img src="<?=config_item('domain_img')?>/<?php $imgs = json_decode($val['img'],true); echo $imgs[0];?>" alt="<?php  $title = mb_substr($val['title'],0,mb_strpos($val['title'],'(')); echo $title; ?>" /></a>
+                            <a href="<?=config_item('domain_detail').'/'.$val['id']?>" target="_blank"><img src="<?=config_item('domain_img')?>/<?php $imgs = json_decode($val['img'],true); echo $imgs[0].'_270x400.jpg';?>" alt="<?php  $title = mb_substr($val['title'],0,mb_strpos($val['title'],'(')); echo $title; ?>" /></a>
                             <div class="title_t"><a href="<?=config_item('domain_detail').'/'.$val['id']?>" target="_blank"><?=mb_substr($title,0,13).'..'?></a></div>
                         </div>
                     </li>

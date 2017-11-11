@@ -11,7 +11,7 @@
                                 <?php if($j==count($list)) break;?>
                                 <li>
                                     <div class="post_carousel">
-                                        <a href="<?=config_item('domain_detail').'/'.$list[$j]['id']?>" target="_blank"><img src="<?=config_item('domain_img')?>/<?php $imgs = json_decode($list[$j]['img'],true); echo $imgs[0];?>" alt="<?php  $title = mb_substr($list[$j]['title'],0,mb_strpos($list[$j]['title'],'(')); echo $title; ?>" /></a>
+                                        <a href="<?=config_item('domain_detail').'/'.$list[$j]['id']?>" target="_blank"><img src="<?=config_item('domain_img')?>/<?php $imgs = json_decode($list[$j]['img'],true); echo $imgs[0].'_270x400.jpg';?>" alt="<?php  $title = mb_substr($list[$j]['title'],0,mb_strpos($list[$j]['title'],'(')); echo $title; ?>" /></a>
                                         <div class="title_t"><a href="<?=config_item('domain_detail').'/'.$list[$j]['id']?>" target="_blank"><?=mb_substr($title,0,13).'..'?></a></div>
                                     </div>
                                 </li>

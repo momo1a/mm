@@ -49,7 +49,7 @@
                             <?php for($i=2;$i<8;$i++): $imgs = json_decode($recommand[$i]['img'],true); ?>
                             <span>
                                 <a href="<?=config_item('domain_detail').'/'.$recommand[$i]['id']?>">
-                                <img  src="<?php echo config_item('domain_img').'/'.$imgs[0]?>"  alt="<?php echo mb_substr($recommand[$i]['title'],0,mb_strlen($recommand[$i]['title']) - 4); ?>" />
+                                <img  src="<?php echo config_item('domain_img').'/'.$imgs[0].'_175x262.jpg'; ?>"  alt="<?php echo mb_substr($recommand[$i]['title'],0,mb_strlen($recommand[$i]['title']) - 4); ?>" />
                                 </a>
                             </span>
                             <?php  endfor;?>
